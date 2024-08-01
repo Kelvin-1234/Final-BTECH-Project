@@ -1,0 +1,61 @@
+           body {
+                  background-color: #f4f4f4;
+                  margin: 0;
+                  padding:0;
+}
+            .container {
+                        max-width: 600px;
+                        margin: 50px auto;
+                        padding:20px;
+                        background-color:#f4f4f4;
+                        border-radius: 8px;
+                        box-shadow: 0 0 10px;
+}
+            h1 {
+                text-align: center ;
+                margin-bottom:20px ;
+                color: blue;
+                font-style: italic;
+                font-family: 'Times New Roman', Times;
+                word-spacing: 5px;
+                font-variant:small-caps;
+}
+            .form-group {
+                        margin-bottom: 30px;
+}
+            label {
+                   display: block;
+                   margin-bottom: 5px;
+                   font-family: 'Times New Roman', Times, serif;
+                   font-variant: small-caps;
+                   font-size: large;
+                   text-align: left;
+                   margin-left:5px;
+                   word-spacing:5px;
+                   font-style:italic;
+                   color: red;
+                   font-weight: bold;
+}
+            #travelerName,#EmergencycontactName,#emergencyContactEmail,#emergencyContactPhone{
+                  width:95%;
+                  padding:10px;
+                  box-sizing:border-box;
+                  border:2px solid black;
+                  border-radius:4px;
+}
+            button{
+                    width: 100px;
+                    padding: 10px;
+                    margin-left:220px;
+                    border-radius: 4px;
+                    background-color: #5cb85c;
+                    color:black;
+                    font-size: 20px;
+                    font-variant: small-caps;
+                    font-weight: bold;
+                    font-size:16px;
+                    cursor:pointer;
+}
+            button:hover{
+                         background-color: #5cb85c;
+}
